@@ -1,0 +1,30 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+a,a:hover,a:focus{
+    text-decoration: none;
+}
+.bg-custom-light{
+    background-color: #f3f3f3;
+}
+.bg-custom-white{
+    background-color: white;
+}
+.custom-shadow-1{
+    box-shadow: 5px 10px 10px #efe8e8;
+}
+
+form.auth-form  h6{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+form input.form-control:focus{
+    outline: none;
+    box-shadow: none;
+    border-color: none;
+}
+form.auth-form input::placeholder{
+    font-size: 14px;
+}
